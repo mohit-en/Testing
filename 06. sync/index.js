@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+fs.mkdirSync("mohit");
 fs.writeFileSync("mohit/about.txt", "Hello");
 fs.appendFileSync("mohit/about.txt", " This is mohit...");
 
